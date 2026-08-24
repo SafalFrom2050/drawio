@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="OVqyjT__5QP63DCfO6WM">
-    <mxGraphModel dx="1414" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1664" dy="2083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,13 +59,22 @@
           <mxGeometry height="100" width="290" x="1000" y="390" as="geometry" />
         </mxCell>
         <mxCell id="DPRY1BzSJ4zLgtyrxkHH-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Cloud AI Agent" vertex="1">
-          <mxGeometry height="70" width="150" x="287.5" y="940" as="geometry" />
+          <mxGeometry height="70" width="150" x="297.5" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="UWHPoo_tGw8PGP3k5sJc-2" edge="1" parent="1" source="DPRY1BzSJ4zLgtyrxkHH-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DPRY1BzSJ4zLgtyrxkHH-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DPRY1BzSJ4zLgtyrxkHH-21" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Vision Context" vertex="1">
           <mxGeometry height="60" width="120" x="157.5" y="850" as="geometry" />
         </mxCell>
+        <mxCell id="UWHPoo_tGw8PGP3k5sJc-3" edge="1" parent="1" source="DPRY1BzSJ4zLgtyrxkHH-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DPRY1BzSJ4zLgtyrxkHH-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DPRY1BzSJ4zLgtyrxkHH-22" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Anomaly Context" vertex="1">
           <mxGeometry height="60" width="150" x="297.5" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="UWHPoo_tGw8PGP3k5sJc-4" edge="1" parent="1" source="DPRY1BzSJ4zLgtyrxkHH-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DPRY1BzSJ4zLgtyrxkHH-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DPRY1BzSJ4zLgtyrxkHH-23" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Anomaly History (Confirmed/Rejected)" vertex="1">
           <mxGeometry height="60" width="150" x="467.5" y="850" as="geometry" />
