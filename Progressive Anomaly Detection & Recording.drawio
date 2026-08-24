@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="OVqyjT__5QP63DCfO6WM">
+    <mxGraphModel dx="1414" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Lightweight Acoustic Anomality Detection&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Lightweight Vision Model" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Microphone" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Camera" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Heavy Vision Model" vertex="1">
+          <mxGeometry height="60" width="120" x="675" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-6" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;dashed=1;" value="IN CASE ANY:&lt;br&gt;&lt;br&gt;Acoustic: 70%&lt;br&gt;Vision: 40%&lt;div&gt;Vibration threshold: +5%&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="226" x="520" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Weighted Probability &amp;gt; 50%" vertex="1">
+          <mxGeometry height="100" width="135" x="667.5" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Stop &amp;amp; Prompt User" vertex="1">
+          <mxGeometry height="60" width="120" x="785" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Stop/(Slow Down)" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Record Latitude and Longitude of Anomaly &amp;amp; Update the Map" vertex="1">
+          <mxGeometry height="60" width="120" x="785" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-11" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Record Latitude and Longitude of Anomaly &amp;amp; Update the Map" vertex="1">
+          <mxGeometry height="60" width="120" x="562.5" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Stop &amp;amp; Prompt Cloud AI Agent" vertex="1">
+          <mxGeometry height="60" width="120" x="562.5" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-13" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="735" y="850" as="sourcePoint" />
+            <mxPoint x="735" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Full Autonomous Mode" vertex="1">
+          <mxGeometry height="30" width="135" x="555" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Partial Autonomous Mode" vertex="1">
+          <mxGeometry height="30" width="150" x="785" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Localization by RTK" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" value="&lt;span style=&quot;text-align: left;&quot;&gt;Example:&lt;br&gt;Weighted Probability = (Acoustic Anomaly + Lightweight Vision Anomaly + 2 * Heavy Vision Model)/4&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="1000" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Cloud AI Agent" vertex="1">
+          <mxGeometry height="70" width="150" x="287.5" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-21" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Vision Context" vertex="1">
+          <mxGeometry height="60" width="120" x="157.5" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-22" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Anomaly Context" vertex="1">
+          <mxGeometry height="60" width="150" x="297.5" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-23" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Anomaly History (Confirmed/Rejected)" vertex="1">
+          <mxGeometry height="60" width="150" x="467.5" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-24" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Accelerometer&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="-77" as="geometry" />
+        </mxCell>
+        <mxCell id="DPRY1BzSJ4zLgtyrxkHH-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Vibration Meter" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="-77" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
